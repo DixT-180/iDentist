@@ -1,0 +1,273 @@
+
+/**/
+
+
+body{
+    font-family: 'Roboto', sans-serif; 
+  }
+
+  .navbar-nav { 
+    margin-left: auto;   
+} 
+
+
+
+
+
+.navbar-custom { 
+    background-color: #54c7c4;
+    
+} 
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  .nav-back{
+      background: rgba(17, 219, 207,0.8);
+      color: #fff;
+  }
+  .navbar-brand{
+    color: #fff;
+  }
+  .navbar-brand:hover{
+    color: #fff;
+  }
+  .nav-link{
+    color: #000;
+  }
+  .nav-link:hover{
+    color:#fff;
+  }
+  .navbar-toggler{
+    outline: none!important;
+  }
+
+  .nav-item{
+    padding-right: 25px;
+  }
+  
+     
+   
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+      width: 100%;
+      height: 95vh;
+      background: url("/new/caroline-lm-8BkF0sTC6Uo-unsplash.jpg") center center;
+      background-size: cover;
+      position: relative;
+    }
+    
+    #hero .container {
+      padding-top: 80px;
+    }
+    
+    #hero:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    
+    #hero h2 {
+      color: #eee;
+      margin-bottom: 40px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: "Open Sans", sans-serif;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    
+    .main-btn {
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 8px 28px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin: 10px;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+    
+     .main-btn:hover {
+      background: #11dbcf;
+      border: 2px solid #11dbcf;
+      text-decoration: none;
+      color:#fff;
+    }
+     
+   
+   
+    
+    @media (min-width: 992px) {
+      .about .about-img {
+        width: 75%;
+        float: right;
+      }
+      .about .about-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+      }
+      .about .about-text .about-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      .about .about-text {
+        width: 45%;
+      }
+    }
+
+
+
+
+
+
+
+
+
+    
+    /*FOOTER*/
+
+footer {
+  background: #54c7c4;
+  
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #3B5998;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1.5px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+.mainfooter{
+margin: 0px;
+
+}
+
+
+
+
+
+    
